@@ -73,7 +73,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="hug-vI-9Rn">
             <objects>
-                <tabBarController id="9af-tH-XHq" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="9af-tH-XHq" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="YxC-Px-fo9"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AeO-M3-hS8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
@@ -122,7 +122,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Clone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tee-2S-bKh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram Clone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tee-2S-bKh">
                                 <rect key="frame" x="32" y="112" width="328" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
